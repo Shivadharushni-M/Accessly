@@ -11,3 +11,36 @@ services:
       - type: rewrite
         source: /*
         destination: /index.html
+      - type: rewrite
+        source: /login
+        destination: /index.html
+      - type: rewrite
+        source: /register
+        destination: /index.html
+      - type: rewrite
+        source: /dashboard
+        destination: /index.html
+      - type: rewrite
+        source: /users
+        destination: /index.html
+      - type: rewrite
+        source: /roles
+        destination: /index.html
+      - type: rewrite
+        source: /organizations
+        destination: /index.html
+      - type: rewrite
+        source: /tenants
+        destination: /index.html
+      - type: rewrite
+        source: /analytics
+        destination: /index.html
+      - type: rewrite
+        source: /audit
+        destination: /index.html
+      - type: rewrite
+        source: /profile
+        destination: /index.html
+      - type: rewrite
+        source: /settings
+        destination: /index.html
